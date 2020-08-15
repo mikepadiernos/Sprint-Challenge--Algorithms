@@ -2,14 +2,18 @@
 
 ## Exercise I
 
-a)
+a)  O(n^3), outcome of input increases to the power of 3 
 
 
-b)
+b)  O(n log n), the outer loop is in O(n) while inner loop divides in half
 
 
-c)
+c)  O(n), outcome of input increases proportionately
 
 ## Exercise II
 
+Using a Binary Search we would start at the middle and drop an egg. 
+If the egg breaks all the higher floors don't count.
+Start moving lower until we find the floor where the egg don't break.
 
+O(log n), the output divides in half each time
